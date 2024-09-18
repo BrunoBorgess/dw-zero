@@ -1,0 +1,12 @@
+datawarehouse:
+  outputs:
+    dev:
+      dbname: dbsales_u0nm
+      host: dpg-crjh8njv2p9s738uh8hg-a.oregon-postgres.render.com
+      pass: QJYOvBQ3NIYPtICDsKAn8cROuipXllhJ
+      port: 5432
+      schema: public
+      threads: 1
+      type: postgres
+      user: postgres123
+  target: dev
